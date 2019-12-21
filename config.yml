@@ -1,0 +1,23 @@
+Server:
+  IP: irc.twitch.tv
+  PORT: 6667
+
+Login:
+  Username: 'put here your username'
+  OAuth: oauth:0000000000000000000
+  Channel: '#put here your username for default channel'
+
+Extensions:
+  msg on join:
+    enabled: true
+    message: "TwitchPad's Bot has joined!"
+
+  show keys in console:
+    enabled: true
+    message: "(!) %user% >> Key: %key%"
+
+Messages:
+  logging: '(!) Logging... please wait'
+  succefull_login: '(!) Logged succefully'
+
+Keys: [z, x, c, up, down, left, right]
